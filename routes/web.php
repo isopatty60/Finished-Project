@@ -143,6 +143,5 @@ Route::get('/pdf/{id}', [PDFController::class , 'pdf'])->middleware('auth');
 Route::get('/PDFIncome2/{id}', [PDFIncome2Controller::class , 'PDFIncome2'])->middleware('auth');
 Route::get('/pdfIncome3/{id}', [PDFIncome3Controller::class , 'pdfIncome3'])->middleware('auth');
 
-// ----------------------------- form dashboard ------------------------------//
-Route::get('/api/dashboard', [App\Http\Controllers\HomeController::class, 'deshboard'])->name('api/dashboard');
+
 
